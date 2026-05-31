@@ -24,35 +24,46 @@
     });
   }
 
-  const wechatButton = document.getElementById('wechatButton');
-  const wechatModal = document.getElementById('wechatModal');
-  const wechatCloseTargets = document.querySelectorAll('[data-close-wechat]');
+  const contactModals = document.querySelectorAll('.wechat-modal');
 
-  function setWechatModal(isOpen) {
-    if (!wechatModal) return;
+  function setContactModal(modal, isOpen) {
+    if (!modal) return;
 
-    wechatModal.classList.toggle('is-open', isOpen);
-    wechatModal.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
-    document.body.classList.toggle('modal-open', isOpen);
+    modal.classList.toggle('is-open', isOpen);
+    modal.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
+    document.body.classList.toggle('modal-open', Boolean(document.querySelector('.wechat-modal.is-open')));
   }
 
-  if (wechatButton && wechatModal) {
-    wechatButton.addEventListener('click', function() {
-      setWechatModal(true);
+  function setupContactModal(buttonId, modalId) {
+    const button = document.getElementById(buttonId);
+    const modal = document.getElementById(modalId);
+
+    if (!button || !modal) return;
+
+    button.addEventListener('click', function() {
+      contactModals.forEach(function(item) {
+        setContactModal(item, false);
+      });
+      setContactModal(modal, true);
     });
 
-    wechatCloseTargets.forEach(function(target) {
+    modal.querySelectorAll('[data-close-modal]').forEach(function(target) {
       target.addEventListener('click', function() {
-        setWechatModal(false);
+        setContactModal(modal, false);
       });
     });
-
-    document.addEventListener('keydown', function(event) {
-      if (event.key === 'Escape' && wechatModal.classList.contains('is-open')) {
-        setWechatModal(false);
-      }
-    });
   }
+
+  setupContactModal('wechatButton', 'wechatModal');
+  setupContactModal('xiaohongshuButton', 'xiaohongshuModal');
+
+  document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+      contactModals.forEach(function(modal) {
+        setContactModal(modal, false);
+      });
+    }
+  });
 
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver(function(entries) {
