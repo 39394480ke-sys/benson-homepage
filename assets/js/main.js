@@ -24,6 +24,36 @@
     });
   }
 
+  const wechatButton = document.getElementById('wechatButton');
+  const wechatModal = document.getElementById('wechatModal');
+  const wechatCloseTargets = document.querySelectorAll('[data-close-wechat]');
+
+  function setWechatModal(isOpen) {
+    if (!wechatModal) return;
+
+    wechatModal.classList.toggle('is-open', isOpen);
+    wechatModal.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
+    document.body.classList.toggle('modal-open', isOpen);
+  }
+
+  if (wechatButton && wechatModal) {
+    wechatButton.addEventListener('click', function() {
+      setWechatModal(true);
+    });
+
+    wechatCloseTargets.forEach(function(target) {
+      target.addEventListener('click', function() {
+        setWechatModal(false);
+      });
+    });
+
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape' && wechatModal.classList.contains('is-open')) {
+        setWechatModal(false);
+      }
+    });
+  }
+
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver(function(entries) {
       entries.forEach(function(entry) {
