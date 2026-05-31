@@ -553,6 +553,23 @@ body.theme-luka .map-stage {
   isolation: isolate;
 }
 
+body.theme-luka .map-status {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 3;
+  max-width: calc(100% - 32px);
+  padding: 8px 12px;
+  border: 1px solid var(--luka-border);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--luka-surface) 82%, transparent);
+  color: var(--luka-secondary);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.35;
+  backdrop-filter: blur(12px);
+}
+
 body.theme-luka .map-stage::before {
   content: "";
   position: absolute;
@@ -581,6 +598,11 @@ body.theme-luka .china-map {
   transition: transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+body.theme-luka .china-map,
+body.theme-luka .china-map * {
+  outline: none;
+}
+
 body.theme-luka .map-viewport {
   transform-box: fill-box;
   transform-origin: var(--map-origin-x, 50%) var(--map-origin-y, 50%);
@@ -605,9 +627,70 @@ body.theme-luka .map-province {
   transition: fill 0.25s ease, stroke 0.25s ease;
 }
 
-body.theme-luka .map-province:hover {
+body.theme-luka .map-province.has-places {
+  cursor: pointer;
+}
+
+body.theme-luka .map-province:hover,
+body.theme-luka .map-province.has-places:hover,
+body.theme-luka .map-province.is-active-province {
   fill: color-mix(in srgb, var(--luka-soft) 58%, var(--luka-fresh));
   stroke: color-mix(in srgb, var(--luka-accent) 78%, var(--luka-text));
+}
+
+body.theme-luka .province-points {
+  transition: opacity 0.24s ease;
+}
+
+body.theme-luka .province-points.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+body.theme-luka .province-point {
+  cursor: pointer;
+  outline: none;
+}
+
+body.theme-luka .province-point-hit {
+  fill: transparent;
+  pointer-events: all;
+}
+
+body.theme-luka .province-point-dot {
+  fill: var(--luka-fresh);
+  stroke: var(--luka-surface);
+  stroke-width: 4;
+  filter: drop-shadow(0 4px 8px var(--luka-shadow));
+  transition: transform 0.24s ease, fill 0.24s ease;
+}
+
+body.theme-luka .province-point-count {
+  fill: #fff;
+  font-size: 9px;
+  font-weight: 800;
+  pointer-events: none;
+}
+
+body.theme-luka .province-point-label {
+  fill: var(--luka-text);
+  font-size: 13px;
+  font-weight: 800;
+  pointer-events: none;
+  paint-order: stroke;
+  stroke: color-mix(in srgb, var(--luka-surface) 90%, transparent);
+  stroke-width: 4px;
+}
+
+body.theme-luka .province-point:hover .province-point-dot {
+  fill: var(--luka-accent);
+  transform: scale(1.15);
+}
+
+body.theme-luka .province-point:focus-visible .province-point-dot,
+body.theme-luka .map-point:focus-visible circle:not(.map-point-hit) {
+  fill: var(--luka-accent);
+  stroke: var(--luka-text);
 }
 
 body.theme-luka .map-point {
@@ -623,14 +706,14 @@ body.theme-luka .map-point-hit {
 body.theme-luka .map-point circle:not(.map-point-hit) {
   fill: var(--luka-fresh);
   stroke: var(--luka-surface);
-  stroke-width: 4;
+  stroke-width: 1.6;
   filter: drop-shadow(0 4px 8px var(--luka-shadow));
   transition: transform 0.25s ease, fill 0.25s ease;
 }
 
 body.theme-luka .map-point text {
   fill: var(--luka-text);
-  font-size: 14px;
+  font-size: 8px;
   font-weight: 700;
   opacity: 0;
   pointer-events: none;
@@ -643,7 +726,7 @@ body.theme-luka .map-point text {
 body.theme-luka .map-point:hover circle:not(.map-point-hit),
 body.theme-luka .map-point.is-active circle:not(.map-point-hit) {
   fill: var(--luka-accent);
-  transform: scale(1.18);
+  transform: scale(1.1);
 }
 
 body.theme-luka .map-point:hover text,
@@ -658,11 +741,11 @@ body.theme-luka .map-point.is-active circle:not(.map-point-hit) {
 @keyframes map-point-pulse {
   0%,
   100% {
-    stroke-width: 4;
+    stroke-width: 1.6;
   }
 
   50% {
-    stroke-width: 7;
+    stroke-width: 2.6;
   }
 }
 

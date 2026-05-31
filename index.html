@@ -16,7 +16,7 @@
   <script src="https://kit.fontawesome.com/a860a211d3.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="assets/css/font_sans_serif.css">
-  <link rel="stylesheet" href="assets/css/theme-luka.css?v=resume-3">
+  <link rel="stylesheet" href="assets/css/theme-luka.css?v=map-stages-4">
 </head>
 <body class="theme-luka">
   <nav class="top-nav">
@@ -100,17 +100,6 @@
           <h2 class="section-title">Experience</h2>
           <div class="experience-list">
             <article class="resume-item experience-item">
-              <div class="resume-logo logo-light">
-                <img src="assets/img/logos/robotpilot.png" alt="RobotPilot logo">
-              </div>
-              <div class="resume-copy">
-                <h3>RobotPilot, Shenzhen University RobotMaster Team</h3>
-                <p class="resume-role">Mechanical Team Member</p>
-                <p class="resume-date">September 2024 - May 2025</p>
-              </div>
-            </article>
-
-            <article class="resume-item experience-item">
               <div class="resume-logo logo-dark">
                 <img src="assets/img/logos/moce-intelligence.png" alt="Moce Intelligence logo">
               </div>
@@ -118,6 +107,17 @@
                 <h3>Moce Intelligence</h3>
                 <p class="resume-role">Structural Intern</p>
                 <p class="resume-date">September 2025 - Present</p>
+              </div>
+            </article>
+
+            <article class="resume-item experience-item">
+              <div class="resume-logo logo-light">
+                <img src="assets/img/logos/robotpilot.png" alt="RobotPilot logo">
+              </div>
+              <div class="resume-copy">
+                <h3>RobotPilot, Shenzhen University RobotMaster Team</h3>
+                <p class="resume-role">Mechanical Team Member</p>
+                <p class="resume-date">September 2024 - May 2025</p>
               </div>
             </article>
           </div>
@@ -157,11 +157,13 @@
         <h2 class="section-title">地图足迹</h2>
         <div class="map-shell">
           <div class="map-stage" aria-label="中国地图足迹">
+            <div class="map-status" id="mapStatus">全国视图：点击有足迹的省份</div>
             <svg id="travelMap" class="china-map" viewBox="0 0 720 520" role="img" aria-labelledby="mapTitle mapDesc">
               <title id="mapTitle">中国地图足迹</title>
-              <desc id="mapDesc">点击香港、惠州、澳门、阳江、汕尾、汕头、广州、佛山等点位查看地点故事和照片。</desc>
+              <desc id="mapDesc">先点击省份进入省份视角，再点击城市点位查看地点故事和照片。</desc>
               <g class="map-viewport">
-                <g id="mapBase" class="map-base" aria-hidden="true"></g>
+                <g id="mapBase" class="map-base"></g>
+                <g id="provincePoints" class="province-points"></g>
                 <g id="mapPoints" class="map-points"></g>
               </g>
             </svg>
@@ -258,7 +260,7 @@
 
   <script src="assets/js/scale.fix.js"></script>
   <script src="assets/js/main.js?v=contact-qr-2"></script>
-  <script src="assets/js/map.js?v=map-data-1"></script>
+  <script src="assets/js/map.js?v=map-stages-4"></script>
   <script src="assets/js/music.js?v=carousel-3d-1"></script>
 </body>
 </html>
