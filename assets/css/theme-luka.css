@@ -431,6 +431,115 @@ body.theme-luka .music-copy p {
   font-size: 14px;
 }
 
+body.theme-luka .resume-section {
+  display: grid;
+  gap: 42px;
+}
+
+body.theme-luka .resume-block {
+  display: grid;
+  gap: 14px;
+}
+
+body.theme-luka .resume-item {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  gap: 22px;
+  align-items: center;
+}
+
+body.theme-luka .resume-logo {
+  width: 84px;
+  height: 84px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border: 1px solid var(--luka-border);
+  border-radius: 8px;
+  background:
+    linear-gradient(145deg, color-mix(in srgb, var(--resume-logo-bg) 86%, transparent), var(--resume-logo-bg)),
+    var(--resume-logo-bg);
+  box-shadow: 0 14px 32px var(--luka-shadow);
+}
+
+body.theme-luka .resume-logo.logo-light {
+  --resume-logo-bg: #fffdf9;
+}
+
+body.theme-luka .resume-logo.logo-dark {
+  --resume-logo-bg: #121416;
+}
+
+[data-theme="dark"] body.theme-luka .resume-logo.logo-light,
+:root:not([data-theme="light"]) body.theme-luka .resume-logo.logo-light {
+  --resume-logo-bg: #121416;
+}
+
+[data-theme="light"] body.theme-luka .resume-logo.logo-dark {
+  --resume-logo-bg: #fffdf9;
+}
+
+body.theme-luka .resume-logo img {
+  width: 76px;
+  height: 76px;
+  object-fit: contain;
+}
+
+body.theme-luka .resume-copy h3 {
+  margin: 0 0 7px;
+  color: var(--luka-text);
+  font-size: clamp(20px, 2.2vw, 28px);
+  line-height: 1.22;
+}
+
+body.theme-luka .resume-role {
+  margin: 0 0 4px;
+  color: var(--luka-secondary);
+  font-size: clamp(16px, 1.8vw, 21px);
+  line-height: 1.45;
+}
+
+body.theme-luka .resume-date {
+  margin: 0;
+  color: var(--luka-accent);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+body.theme-luka .experience-list {
+  position: relative;
+  display: grid;
+  gap: 38px;
+  padding-left: 28px;
+}
+
+body.theme-luka .experience-list::before {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 22px;
+  bottom: 22px;
+  width: 2px;
+  background: linear-gradient(var(--luka-accent), color-mix(in srgb, var(--luka-accent) 18%, transparent));
+}
+
+body.theme-luka .experience-item {
+  position: relative;
+}
+
+body.theme-luka .experience-item::before {
+  content: "";
+  position: absolute;
+  left: -29px;
+  top: 34px;
+  width: 14px;
+  height: 14px;
+  border: 4px solid var(--luka-bg);
+  border-radius: 50%;
+  background: var(--luka-accent);
+  box-shadow: 0 0 0 1px var(--luka-border);
+}
+
 body.theme-luka .map-shell {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 0;
@@ -1139,6 +1248,35 @@ body.theme-luka strong {
 
   body.theme-luka .growth-item::before {
     left: 64px;
+  }
+
+  body.theme-luka .resume-item {
+    grid-template-columns: 72px minmax(0, 1fr);
+    gap: 16px;
+  }
+
+  body.theme-luka .resume-logo {
+    width: 64px;
+    height: 64px;
+  }
+
+  body.theme-luka .resume-logo img {
+    width: 58px;
+    height: 58px;
+  }
+
+  body.theme-luka .experience-list {
+    gap: 30px;
+    padding-left: 22px;
+  }
+
+  body.theme-luka .experience-list::before {
+    left: 5px;
+  }
+
+  body.theme-luka .experience-item::before {
+    left: -24px;
+    top: 25px;
   }
 }
 
