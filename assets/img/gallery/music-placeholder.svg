@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-label="音乐封面占位图">
+  <rect width="640" height="640" fill="#22211e"/>
+  <circle cx="320" cy="320" r="224" fill="#c2714f"/>
+  <circle cx="320" cy="320" r="146" fill="#f2ebe4" opacity=".92"/>
+  <circle cx="320" cy="320" r="44" fill="#557f7a"/>
+  <path d="M414 158v212c0 43-34 74-79 62-31-8-47-34-36-58 11-25 46-36 81-24V202l-124 28v166c0 43-34 74-79 62-31-8-47-34-36-58 11-25 46-36 81-24V196z" fill="#3d3929"/>
+</svg>

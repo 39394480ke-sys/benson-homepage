@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="深圳海边占位图">
+  <rect width="640" height="480" fill="#fffdf9"/>
+  <rect y="278" width="640" height="202" fill="#8fb8ae" opacity=".62"/>
+  <path d="M0 292c76-26 118-25 176 0 67 29 116 29 194 0 76-28 151-28 270 7" fill="none" stroke="#557f7a" stroke-width="16" opacity=".55"/>
+  <circle cx="488" cy="116" r="58" fill="#e28a67" opacity=".84"/>
+  <text x="58" y="404" fill="#3d3929" font-family="Arial, sans-serif" font-size="34" font-weight="700">Sea breeze</text>
+</svg>

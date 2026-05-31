@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="澳门街道占位图">
+  <rect width="640" height="480" fill="#fffdf9"/>
+  <path d="M72 116h496v246H72z" fill="#f2ebe4"/>
+  <path d="M118 160h92v202h-92zM274 160h92v202h-92zM430 160h92v202h-92z" fill="#d9a082" opacity=".74"/>
+  <path d="M72 362h496v58H72z" fill="#557f7a" opacity=".42"/>
+  <text x="64" y="94" fill="#3d3929" font-family="Arial, sans-serif" font-size="34" font-weight="700">Street memory</text>
+</svg>

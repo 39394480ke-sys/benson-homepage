@@ -1,0 +1,23 @@
+[
+  {
+    "title": "个人成长主页",
+    "period": "2026",
+    "summary": "从一个极简主页模板开始，整理个人信息、地图足迹、音乐歌单、项目经历和生活片段。",
+    "growth": "把个人表达做成一个可以长期维护的系统，而不是一次性的页面。",
+    "image": "assets/img/projects/homepage.svg",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/yourname/luka-homepage"
+      }
+    ]
+  },
+  {
+    "title": "地图足迹实验",
+    "period": "2025",
+    "summary": "用可交互地图记录去过的城市，点击地点后展开照片和故事。",
+    "growth": "把旅行记忆从相册里拿出来，变成可以被浏览和继续补充的空间。",
+    "image": "assets/img/projects/map-project.svg",
+    "links": []
+  }
+]

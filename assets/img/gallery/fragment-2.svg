@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 450" role="img" aria-label="城市片段占位图">
+  <rect width="720" height="450" fill="#fffdf9"/>
+  <rect x="88" y="132" width="92" height="214" rx="12" fill="#c2714f" opacity=".74"/>
+  <rect x="224" y="84" width="118" height="262" rx="14" fill="#557f7a" opacity=".72"/>
+  <rect x="396" y="152" width="88" height="194" rx="12" fill="#d9a082"/>
+  <rect x="532" y="108" width="98" height="238" rx="14" fill="#8fb8ae"/>
+  <text x="84" y="396" fill="#3d3929" font-family="Arial, sans-serif" font-size="38" font-weight="700">City Notes</text>
+</svg>

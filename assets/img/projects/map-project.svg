@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="地图项目占位图">
+  <rect width="640" height="480" fill="#fffdf9"/>
+  <path d="M134 142l94-54 112 40 91-38 94 75-35 134 54 66-117 54-105-44-122 36-96-86 48-94z" fill="#f2ebe4" stroke="#c2714f" stroke-width="8"/>
+  <circle cx="452" cy="314" r="18" fill="#557f7a" stroke="#fffdf9" stroke-width="8"/>
+  <circle cx="440" cy="326" r="42" fill="none" stroke="#557f7a" stroke-width="4" opacity=".35"/>
+  <text x="74" y="422" fill="#3d3929" font-family="Arial, sans-serif" font-size="34" font-weight="700">Travel Map</text>
+</svg>

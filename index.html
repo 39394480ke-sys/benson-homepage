@@ -1,32 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Your Name - Homepage</title>
-  <meta name="description" content="A minimal academic homepage template for researchers, students, and creators.">
-  <meta name="keywords" content="academic homepage, personal website, portfolio, researcher, student">
+  <title>Benson Ke - 个人成长主页</title>
+  <meta name="description" content="Benson Ke 的个人成长主页，记录足迹、音乐、项目和生活片段。">
+  <meta name="keywords" content="个人主页, 成长记录, 作品集, 地图足迹, 音乐歌单">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/a860a211d3.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="assets/css/font_sans_serif.css">
-  <link rel="stylesheet" href="assets/css/theme-luka.css">
+  <link rel="stylesheet" href="assets/css/theme-luka.css?v=responsive-map-1">
 </head>
 <body class="theme-luka">
   <nav class="top-nav">
     <div class="nav-container">
       <div class="nav-left">
-        <a href="./">Home</a>
+        <a href="./" aria-label="返回首页">Benson Ke</a>
+      </div>
+      <div class="nav-links" aria-label="页面导航">
+        <a href="#map">足迹</a>
+        <a href="#music">音乐</a>
+        <a href="#projects">项目</a>
       </div>
       <div class="nav-right">
-        <button id="themeToggle" class="theme-toggle" title="Toggle theme" aria-label="Toggle theme">
+        <button id="themeToggle" class="theme-toggle" title="切换明暗模式" aria-label="切换明暗模式">
           <i class="fa-solid fa-moon"></i>
         </button>
       </div>
@@ -37,135 +41,144 @@
     <header class="sidebar">
       <div class="profile-card">
         <a class="image avatar">
-          <img src="assets/img/avatar.svg" alt="Profile avatar">
+          <img src="assets/img/avatar.jpg" alt="Benson Ke 的头像">
         </a>
 
-        <h1 class="site-name">Your Name</h1>
-        <p class="site-email">your.email@example.com</p>
+        <p class="profile-kicker">Personal Growth Journal</p>
+        <h1 class="site-name">Benson Ke</h1>
+        <p class="site-bio">Fail fast, learn faster.</p>
+        <p class="site-email">1318095981@qq.com</p>
 
-        <div class="social-icons">
-          <a href="mailto:your.email@example.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
-          <a href="https://scholar.google.com/" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-          <a href="https://github.com/yourname" title="GitHub"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="https://yourblog.example.com" title="Blog"><i class="fa-solid fa-rss"></i></a>
+        <div class="social-icons" aria-label="联系方式">
+          <a href="mailto:1318095981@qq.com" title="Email" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://github.com/BensonKe" title="GitHub" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="#" title="微信" aria-label="微信"><i class="fa-brands fa-weixin"></i></a>
+          <a href="#" title="小红书" aria-label="小红书"><i class="fa-solid fa-book-open"></i></a>
+          <a href="#" title="博客" aria-label="博客"><i class="fa-solid fa-rss"></i></a>
         </div>
 
-        <div class="visitor-card">
-          <div class="visitor-card-title">Visitor Map</div>
-          <div class="visitor-card-body">
-            Replace this card with your own ClustrMaps image or analytics widget.
+        <div class="profile-note">
+          <div class="profile-note-title">现在的关键词</div>
+          <div class="profile-note-body">
+            <span>成长</span>
+            <span>城市漫游</span>
+            <span>音乐收藏</span>
+            <span>项目实践</span>
           </div>
         </div>
       </div>
     </header>
 
-    <section class="content">
-      <div class="section" id="about">
-        <h2 class="section-title">About Me</h2>
+    <main class="content">
+      <section class="section hero-section" id="about">
+        <p class="section-eyebrow">About</p>
+        <h2 class="hero-title">你好，我是 Benson Ke。</h2>
         <div class="section-body">
-          <p>Hello! I am <strong>Your Name</strong>, a student / researcher / engineer working on topics that matter to you. This template is designed to make personal academic websites clean, readable, and easy to adapt.</p>
-          <p>You can use this section to briefly introduce your background, research interests, and current affiliations. Keep it concise and personal.</p>
-          <p><strong><a href="#" target="_blank" rel="noopener">Download my CV</a></strong> (replace this link with your resume)</p>
+          <p>这里会成为我的个人成长主页：不只是列出经历，也记录那些真正让我变成现在这个人的城市、作品、歌和瞬间。</p>
+          <p>第一版先搭好完整骨架。你之后只需要替换头像、联系方式、真实照片、项目链接和网易云歌单链接，这个站点就会越来越像你本人。</p>
         </div>
-      </div>
+      </section>
 
-      <div class="section" id="education">
-        <h2 class="section-title">Education</h2>
-        <div class="section-body">
-          <div class="card">
-            <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Institution logo" class="institution-logo">
-              <div class="experience-content">
-                <p class="exp-title"><strong>Your University</strong></p>
-                <p class="exp-detail">B.S. / M.S. / Ph.D. in Your Major</p>
-                <p class="exp-period">2022 - 2026</p>
-              </div>
+      <section class="section" id="timeline">
+        <p class="section-eyebrow">Timeline</p>
+        <h2 class="section-title">成长时间线</h2>
+        <div class="growth-timeline">
+          <article class="growth-item">
+            <time>现在</time>
+            <div>
+              <h3>搭建自己的主页</h3>
+              <p>把分散在相册、歌单、项目仓库里的自己收拢起来，做成一个可以持续更新的空间。</p>
+            </div>
+          </article>
+          <article class="growth-item">
+            <time>2025</time>
+            <div>
+              <h3>开始认真记录</h3>
+              <p>从去过的城市、做过的小项目、喜欢的音乐里，慢慢找到自己的表达方式。</p>
+            </div>
+          </article>
+          <article class="growth-item">
+            <time>更早</time>
+            <div>
+              <h3>保持好奇</h3>
+              <p>一些看似零散的尝试，会在以后连成线。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="map">
+        <p class="section-eyebrow">Map</p>
+        <h2 class="section-title">地图足迹</h2>
+        <div class="map-shell">
+          <div class="map-stage" aria-label="中国地图足迹">
+            <svg id="travelMap" class="china-map" viewBox="0 0 720 520" role="img" aria-labelledby="mapTitle mapDesc">
+              <title id="mapTitle">中国地图足迹</title>
+              <desc id="mapDesc">点击香港、惠州、澳门、阳江、汕尾、汕头、广州、佛山等点位查看地点故事和照片。</desc>
+              <g class="map-viewport">
+                <g id="mapBase" class="map-base" aria-hidden="true"></g>
+                <g id="mapPoints" class="map-points"></g>
+              </g>
+            </svg>
+          </div>
+          <aside class="place-panel" id="placePanel" aria-live="polite">
+            <p class="panel-kicker">选择一个地点</p>
+            <h3>足迹正在加载</h3>
+            <p>如果你看到这段文字，说明数据还没有加载完成。</p>
+          </aside>
+        </div>
+        <div id="placesFallback" class="fallback-list"></div>
+      </section>
+
+      <section class="section" id="music">
+        <p class="section-eyebrow">Playlist</p>
+        <h2 class="section-title">喜爱歌单</h2>
+        <div class="music-player" id="musicPlayer">
+          <div class="album-frame" id="albumFrame" aria-label="3D 专辑选择器">
+            <div class="album-deck" id="albumDeck" aria-live="polite"></div>
+          </div>
+          <div class="music-copy">
+            <div class="track-info" aria-live="polite">
+              <h3 id="trackTitle">歌单正在加载</h3>
+              <p id="trackArtist">稍等一下，音乐会到这里来。</p>
+              <p id="trackAlbum" class="track-album"></p>
+            </div>
+            <div class="music-actions">
+              <button class="icon-button" id="prevTrack" aria-label="上一首"><i class="fa-solid fa-chevron-left"></i></button>
+              <a class="listen-link" id="listenLink" href="#" target="_blank" rel="noopener">去网易云听</a>
+              <button class="icon-button" id="nextTrack" aria-label="下一首"><i class="fa-solid fa-chevron-right"></i></button>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="section" id="experience">
-        <h2 class="section-title">Experience</h2>
-        <div class="section-body">
-          <div class="card timeline-item">
-            <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Institution logo" class="institution-logo">
-              <div class="experience-content">
-                <p class="exp-title"><strong>Research Lab / Company Name</strong></p>
-                <p class="exp-detail">Research Intern / Engineer / Assistant</p>
-                <p class="exp-detail"><em>Advisor:</em> Prof. / Dr. Name</p>
-                <p class="exp-period">2025 - Present</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="card timeline-item">
-            <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Institution logo" class="institution-logo">
-              <div class="experience-content">
-                <p class="exp-title"><strong>Previous Institution</strong></p>
-                <p class="exp-detail">Research Intern / Teaching Assistant</p>
-                <p class="exp-detail"><em>Advisor:</em> Prof. / Dr. Name</p>
-                <p class="exp-period">2024 - 2025</p>
-              </div>
-            </div>
-          </div>
+      <section class="section" id="projects">
+        <p class="section-eyebrow">Projects</p>
+        <h2 class="section-title">项目与作品</h2>
+        <div class="project-list" id="projectList">
+          <p>项目正在加载。</p>
         </div>
-      </div>
+      </section>
 
-      <div class="section" id="projects">
-        <h2 class="section-title">Projects</h2>
-        <div class="section-body">
-          <div class="card project-card">
-            <a href="https://github.com/yourname/project-name">Project Name</a>: A short one-line summary describing what this project does and why it matters.
-          </div>
+      <section class="section" id="gallery">
+        <p class="section-eyebrow">Fragments</p>
+        <h2 class="section-title">相册与片段</h2>
+        <div class="gallery-grid">
+          <figure>
+            <img src="assets/img/gallery/fragment-1.svg" alt="生活片段占位图">
+            <figcaption>把喜欢的照片放在这里，像给时间加书签。</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/img/gallery/fragment-2.svg" alt="城市片段占位图">
+            <figcaption>一座城市，一段记忆，一个后来才懂的自己。</figcaption>
+          </figure>
         </div>
-      </div>
-
-      <div class="section" id="publications">
-        <h2 class="section-title">Publications</h2>
-        <div class="section-body">
-          <div class="publications">
-            <ol class="bibliography">
-              <li>
-                <div class="pub-row">
-                  <div class="pub-content">
-                    <div class="title">Paper Title Goes Here</div>
-                    <div class="author"><strong>Your Name</strong>, Coauthor A, Coauthor B</div>
-                    <div class="periodical"><em><strong>Conference / Journal / arXiv</strong></em></div>
-                    <div class="links">
-                      <a href="#">Paper</a> / <a href="#">Code</a> / <a href="#">Project</a>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ol>
-          </div>
-        </div>
-      </div>
-
-      <div class="section" id="awards">
-        <h2 class="section-title">Awards</h2>
-        <div class="section-body">
-          <div class="awards-grid">
-            <div class="award-item">
-              <span class="award-icon">🏅</span>
-              <div class="award-text"><strong>Award Name</strong></div>
-            </div>
-            <div class="award-item">
-              <span class="award-icon">🥇</span>
-              <div class="award-text"><strong>Competition / Scholarship / Honor</strong></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <footer class="site-footer">
       <p>
-        &copy; 2026 Your Name. All rights reserved.
+        &copy; 2026 Luka. All rights reserved.
         <br>
         <span class="template-credit"><a href="https://github.com/wzsyyh/luka-homepage-template">Luka Homepage Template</a> by <a href="https://wzsyyh.github.io/">Yuheng Yang</a></span>
       </p>
@@ -173,46 +186,8 @@
   </div>
 
   <script src="assets/js/scale.fix.js"></script>
-  <script>
-    (function() {
-      const themeToggle = document.getElementById('themeToggle');
-      const icon = themeToggle.querySelector('i');
-
-      function setTheme(isDark) {
-        document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
-        icon.classList.toggle('fa-sun', isDark);
-        icon.classList.toggle('fa-moon', !isDark);
-        localStorage.setItem('theme', isDark ? 'dark' : 'light');
-      }
-
-      const savedTheme = localStorage.getItem('theme');
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      setTheme(savedTheme ? savedTheme === 'dark' : prefersDark);
-
-      themeToggle.addEventListener('click', function() {
-        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-        setTheme(!isDark);
-      });
-
-      if ('IntersectionObserver' in window) {
-        const observer = new IntersectionObserver(function(entries) {
-          entries.forEach(function(entry) {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('visible');
-              observer.unobserve(entry.target);
-            }
-          });
-        }, { threshold: 0.1 });
-
-        document.querySelectorAll('.section').forEach(function(el) {
-          observer.observe(el);
-        });
-      } else {
-        document.querySelectorAll('.section').forEach(function(el) {
-          el.classList.add('visible');
-        });
-      }
-    })();
-  </script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/map.js?v=map-data-1"></script>
+  <script src="assets/js/music.js?v=carousel-3d-1"></script>
 </body>
 </html>

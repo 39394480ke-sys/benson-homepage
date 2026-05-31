@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="个人主页项目占位图">
+  <rect width="640" height="480" fill="#f2ebe4"/>
+  <rect x="86" y="84" width="468" height="312" rx="20" fill="#fffdf9" stroke="#c2714f" stroke-width="6"/>
+  <circle cx="164" cy="170" r="48" fill="#8fb8ae"/>
+  <rect x="244" y="140" width="222" height="22" rx="11" fill="#3d3929" opacity=".8"/>
+  <rect x="244" y="186" width="272" height="16" rx="8" fill="#82796e" opacity=".45"/>
+  <rect x="126" y="270" width="388" height="18" rx="9" fill="#c2714f" opacity=".42"/>
+  <rect x="126" y="314" width="288" height="18" rx="9" fill="#557f7a" opacity=".42"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="深圳照片占位图">
+  <rect width="640" height="480" fill="#f2ebe4"/>
+  <path d="M0 334c78-42 145-48 208-18 64 31 114 25 179-25 72-55 151-50 253 16v173H0z" fill="#557f7a" opacity=".28"/>
+  <rect x="96" y="126" width="46" height="190" rx="8" fill="#c2714f" opacity=".72"/>
+  <rect x="176" y="82" width="70" height="236" rx="10" fill="#557f7a" opacity=".74"/>
+  <rect x="285" y="146" width="54" height="172" rx="8" fill="#d9a082"/>
+  <rect x="384" y="98" width="82" height="220" rx="10" fill="#8fb8ae"/>
+  <text x="60" y="410" fill="#3d3929" font-family="Arial, sans-serif" font-size="38" font-weight="700">Shenzhen</text>
+</svg>

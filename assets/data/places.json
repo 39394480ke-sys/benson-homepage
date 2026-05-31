@@ -1,0 +1,482 @@
+[
+  {
+    "id": "hongkong",
+    "name": "香港",
+    "coordinates": [
+      114.1694,
+      22.3193
+    ],
+    "markerOffset": [
+      12,
+      -6
+    ],
+    "labelOffset": [
+      14,
+      24
+    ],
+    "summary": "无",
+    "photos": [
+      "assets/img/places/hongkong-1.jpg",
+      "assets/img/places/hongkong-2.jpg",
+      "assets/img/places/hongkong-3.jpg",
+      "assets/img/places/hongkong-4.jpg"
+    ]
+  },
+  {
+    "id": "huizhou",
+    "name": "惠州",
+    "coordinates": [
+      114.4168,
+      23.1115
+    ],
+    "markerOffset": [
+      8,
+      -16
+    ],
+    "labelOffset": [
+      14,
+      -16
+    ],
+    "summary": "很适合放空的地方 每个假期都会在那里放松一段时间",
+    "photos": [
+      "assets/img/places/huizhou-1.jpg",
+      "assets/img/places/huizhou-2.jpg",
+      "assets/img/places/huizhou-3.jpg"
+    ]
+  },
+  {
+    "id": "macau",
+    "name": "澳门",
+    "coordinates": [
+      113.5439,
+      22.1987
+    ],
+    "markerOffset": [
+      -16,
+      -2
+    ],
+    "labelOffset": [
+      14,
+      24
+    ],
+    "summary": "极尽奢靡，赌场里大多是中老年人。",
+    "photos": [
+      "assets/img/places/macau-1.jpg",
+      "assets/img/places/macau-2.jpg",
+      "assets/img/places/macau-3.jpg"
+    ]
+  },
+  {
+    "id": "yangjiang",
+    "name": "阳江",
+    "coordinates": [
+      111.9826,
+      21.8579
+    ],
+    "markerOffset": [
+      -12,
+      -4
+    ],
+    "labelOffset": [
+      -48,
+      24
+    ],
+    "summary": "无",
+    "photos": [
+      "assets/img/places/yangjiang-1.jpg",
+      "assets/img/places/yangjiang-2.jpg"
+    ]
+  },
+  {
+    "id": "guangzhou",
+    "name": "广州",
+    "coordinates": [
+      113.2644,
+      23.1291
+    ],
+    "markerOffset": [
+      0,
+      -18
+    ],
+    "labelOffset": [
+      14,
+      -16
+    ],
+    "summary": "一所很开放的城市，在这里有很多喜欢的事物，花切，陪你度过漫长岁月。",
+    "photos": [
+      "assets/img/places/guangzhou-1.jpg",
+      "assets/img/places/guangzhou-2.jpg",
+      "assets/img/places/guangzhou-3.jpg",
+      "assets/img/places/guangzhou-4.jpg"
+    ]
+  },
+  {
+    "id": "foshan",
+    "name": "佛山",
+    "coordinates": [
+      113.1214,
+      23.0215
+    ],
+    "markerOffset": [
+      -18,
+      -10
+    ],
+    "labelOffset": [
+      -44,
+      -16
+    ],
+    "summary": "清晖园。",
+    "photos": [
+      "assets/img/places/foshan-1.jpg",
+      "assets/img/places/foshan-2.jpg"
+    ]
+  },
+  {
+    "id": "shanwei",
+    "name": "汕尾",
+    "coordinates": [
+      115.3753,
+      22.7862
+    ],
+    "markerOffset": [
+      12,
+      -8
+    ],
+    "labelOffset": [
+      14,
+      -16
+    ],
+    "summary": "二马路特色小吃很棒。",
+    "photos": [
+      "assets/img/places/shanwei-1.jpg",
+      "assets/img/places/shanwei-2.jpg"
+    ]
+  },
+  {
+    "id": "shantou",
+    "name": "汕头",
+    "coordinates": [
+      116.6819,
+      23.3541
+    ],
+    "markerOffset": [
+      12,
+      -8
+    ],
+    "labelOffset": [
+      14,
+      -16
+    ],
+    "summary": "我的家乡，我喜欢这种大家连在一起的感觉，火燃烧的感觉。",
+    "photos": [
+      "assets/img/places/shantou-1.jpg",
+      "assets/img/places/shantou-2.jpg",
+      "assets/img/places/shantou-3.jpg",
+      "assets/img/places/shantou-4.jpg",
+      "assets/img/places/shantou-5.jpg",
+      "assets/img/places/shantou-6.jpg",
+      "assets/img/places/shantou-7.jpg"
+    ]
+  },
+  {
+    "id": "zhongshan",
+    "name": "中山",
+    "coordinates": [
+      113.3926,
+      22.5176
+    ],
+    "markerOffset": [
+      -6,
+      6
+    ],
+    "labelOffset": [
+      14,
+      24
+    ],
+    "summary": "常常回味脆鱼皖的味道",
+    "photos": [
+      "assets/img/places/zhongshan-1.jpg"
+    ]
+  },
+  {
+    "id": "qingyuan",
+    "name": "清远",
+    "coordinates": [
+      113.056,
+      23.682
+    ],
+    "markerOffset": [
+      -10,
+      -10
+    ],
+    "labelOffset": [
+      -46,
+      -16
+    ],
+    "summary": "漂流",
+    "photos": [
+      "assets/img/places/qingyuan-1.jpg",
+      "assets/img/places/qingyuan-2.jpg",
+      "assets/img/places/qingyuan-3.jpg"
+    ]
+  },
+  {
+    "id": "xiamen",
+    "name": "厦门",
+    "coordinates": [
+      118.0894,
+      24.4798
+    ],
+    "markerOffset": [
+      0,
+      0
+    ],
+    "labelOffset": [
+      14,
+      4
+    ],
+    "summary": "很纯粹的旅游城市，炎热",
+    "photos": [
+      "assets/img/places/xiamen-1.jpg",
+      "assets/img/places/xiamen-2.jpg",
+      "assets/img/places/xiamen-3.jpg",
+      "assets/img/places/xiamen-4.jpg"
+    ]
+  },
+  {
+    "id": "ganzhou",
+    "name": "赣州",
+    "coordinates": [
+      114.935,
+      25.831
+    ],
+    "markerOffset": [
+      0,
+      0
+    ],
+    "labelOffset": [
+      14,
+      4
+    ],
+    "summary": "无",
+    "photos": [
+      "assets/img/places/ganzhou-1.jpg"
+    ]
+  },
+  {
+    "id": "guilin",
+    "name": "桂林",
+    "coordinates": [
+      110.2902,
+      25.2736
+    ],
+    "markerOffset": [
+      0,
+      0
+    ],
+    "labelOffset": [
+      14,
+      4
+    ],
+    "summary": "桂林山水甲天下",
+    "photos": [
+      "assets/img/places/guilin-1.jpg",
+      "assets/img/places/guilin-2.jpg",
+      "assets/img/places/guilin-3.jpg"
+    ]
+  },
+  {
+    "id": "hangzhou",
+    "name": "杭州",
+    "coordinates": [
+      120.1551,
+      30.2741
+    ],
+    "markerOffset": [
+      -8,
+      10
+    ],
+    "labelOffset": [
+      -44,
+      24
+    ],
+    "summary": "西湖，西溪湿地",
+    "photos": [
+      "assets/img/places/hangzhou-1.jpg",
+      "assets/img/places/hangzhou-2.jpg",
+      "assets/img/places/hangzhou-3.jpg",
+      "assets/img/places/hangzhou-4.jpg"
+    ]
+  },
+  {
+    "id": "shanghai",
+    "name": "上海",
+    "coordinates": [
+      121.4737,
+      31.2304
+    ],
+    "markerOffset": [
+      12,
+      -8
+    ],
+    "labelOffset": [
+      14,
+      -16
+    ],
+    "summary": "有一股金融的味道，那里的人都很开放",
+    "photos": [
+      "assets/img/places/shanghai-1.jpg",
+      "assets/img/places/shanghai-2.jpg",
+      "assets/img/places/shanghai-3.jpg",
+      "assets/img/places/shanghai-4.jpg"
+    ]
+  },
+  {
+    "id": "suzhou",
+    "name": "苏州",
+    "coordinates": [
+      120.5853,
+      31.2989
+    ],
+    "markerOffset": [
+      -12,
+      -10
+    ],
+    "labelOffset": [
+      -44,
+      -16
+    ],
+    "summary": "淡淡的，顺顺的",
+    "photos": [
+      "assets/img/places/suzhou-1.jpg",
+      "assets/img/places/suzhou-2.jpg",
+      "assets/img/places/suzhou-3.jpg",
+      "assets/img/places/suzhou-4.jpg"
+    ]
+  },
+  {
+    "id": "taiyuan",
+    "name": "太原",
+    "coordinates": [
+      112.5489,
+      37.8706
+    ],
+    "markerOffset": [
+      0,
+      0
+    ],
+    "labelOffset": [
+      14,
+      4
+    ],
+    "summary": "第一次搓澡就爱上了，文化底蕴深厚",
+    "photos": [
+      "assets/img/places/taiyuan-1.jpg",
+      "assets/img/places/taiyuan-2.jpg",
+      "assets/img/places/taiyuan-3.jpg"
+    ]
+  },
+  {
+    "id": "weinan",
+    "name": "渭南",
+    "coordinates": [
+      109.4709,
+      34.5206
+    ],
+    "markerOffset": [
+      0,
+      0
+    ],
+    "labelOffset": [
+      14,
+      4
+    ],
+    "summary": "路漫漫",
+    "photos": [
+      "assets/img/places/weinan-1.jpg",
+      "assets/img/places/weinan-2.jpg"
+    ]
+  },
+  {
+    "id": "wuhan",
+    "name": "武汉",
+    "coordinates": [
+      114.3054,
+      30.5931
+    ],
+    "markerOffset": [
+      0,
+      0
+    ],
+    "labelOffset": [
+      14,
+      4
+    ],
+    "summary": "无",
+    "photos": [
+      "assets/img/places/wuhan-1.jpg",
+      "assets/img/places/wuhan-2.jpg"
+    ]
+  },
+  {
+    "id": "xining",
+    "name": "西宁",
+    "coordinates": [
+      101.7782,
+      36.6171
+    ],
+    "markerOffset": [
+      0,
+      0
+    ],
+    "labelOffset": [
+      14,
+      4
+    ],
+    "summary": "青草的味道",
+    "photos": [
+      "assets/img/places/xining-1.jpg"
+    ]
+  },
+  {
+    "id": "lanzhou",
+    "name": "兰州",
+    "coordinates": [
+      103.8343,
+      36.0611
+    ],
+    "markerOffset": [
+      0,
+      0
+    ],
+    "labelOffset": [
+      14,
+      4
+    ],
+    "summary": "清晨五点的拉面，很正宗",
+    "photos": [
+      "assets/img/places/lanzhou-1.jpg"
+    ]
+  },
+  {
+    "id": "haixi",
+    "name": "海西蒙古族藏族自治州",
+    "coordinates": [
+      97.3708,
+      37.3771
+    ],
+    "markerOffset": [
+      0,
+      0
+    ],
+    "labelOffset": [
+      14,
+      4
+    ],
+    "summary": "无",
+    "photos": [
+      "assets/img/places/haixi-1.jpg",
+      "assets/img/places/haixi-2.jpg"
+    ]
+  }
+]

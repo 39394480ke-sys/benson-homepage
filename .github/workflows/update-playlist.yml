@@ -1,0 +1,32 @@
+name: Update Netease Playlist
+
+on:
+  schedule:
+    - cron: "15 20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-playlist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Update playlist data
+        env:
+          NETEASE_PLAYLIST_URL: https://music.163.com/playlist?id=17830616987
+        run: node scripts/update-netease-playlist.mjs
+
+      - name: Commit playlist data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update playlist data"
+          file_pattern: assets/data/playlist.json

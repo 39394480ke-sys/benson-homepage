@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="澳门照片占位图">
+  <rect width="640" height="480" fill="#f6efe8"/>
+  <path d="M84 334h472v86H84z" fill="#557f7a" opacity=".18"/>
+  <path d="M158 322V154h64v168M288 322V104h70v218M430 322V176h56v146" fill="none" stroke="#c2714f" stroke-width="24" stroke-linecap="round"/>
+  <path d="M119 350c82-38 157-38 228 0 61 33 121 34 184 3" fill="none" stroke="#557f7a" stroke-width="14" opacity=".56"/>
+  <text x="62" y="414" fill="#3d3929" font-family="Arial, sans-serif" font-size="38" font-weight="700">Macau</text>
+</svg>

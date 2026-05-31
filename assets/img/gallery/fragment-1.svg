@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 450" role="img" aria-label="生活片段占位图">
+  <rect width="720" height="450" fill="#f2ebe4"/>
+  <circle cx="560" cy="122" r="58" fill="#e28a67" opacity=".78"/>
+  <path d="M0 310c99-54 177-61 265-20 80 38 153 39 247-6 73-35 136-31 208 12v154H0z" fill="#557f7a" opacity=".42"/>
+  <text x="54" y="108" fill="#3d3929" font-family="Arial, sans-serif" font-size="40" font-weight="700">Fragments</text>
+</svg>

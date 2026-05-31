@@ -54,6 +54,25 @@
 - `assets/img/avatar.svg`：头像占位图
 - `assets/img/institution.svg`：机构 Logo 占位图
 
+当前版本已经扩展为个人成长主页。后续最常改的是这些数据文件：
+
+- `assets/data/places.json`：地图足迹、城市故事和照片
+- `assets/data/playlist.json`：喜爱歌单数据
+- `assets/data/projects.json`：项目与作品
+
+新增城市时，把照片放进 `assets/img/places/`，再在 `places.json` 里添加一项即可。`coordinates` 保留真实经纬度；如果城市点位在小地图上太拥挤，可以用 `mapOffset` 做展示偏移。
+
+### 网易云歌单自动更新
+
+歌单同步脚本在 `scripts/update-netease-playlist.mjs`，GitHub Actions 配置在 `.github/workflows/update-playlist.yml`。
+
+1. 在 GitHub 仓库设置里添加 Secret：`NETEASE_PLAYLIST_URL`
+2. Secret 的值填网易云歌单链接，例如 `https://music.163.com/#/playlist?id=123456`
+3. Actions 会每天自动更新 `assets/data/playlist.json`
+4. 也可以在 Actions 页面手动点击 `Run workflow`
+
+如果网易云接口临时失败，脚本会保留现有歌单数据，并在 JSON 里记录失败原因。
+
 ### 3. 替换资源
 
 - 头像：替换 `assets/img/avatar.svg`
