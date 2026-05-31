@@ -8,7 +8,7 @@
   const mapStatus = document.getElementById('mapStatus');
   const placePanel = document.getElementById('placePanel');
   const fallbackList = document.getElementById('placesFallback');
-  const dataVersion = '20260531-map-stages-5';
+  const dataVersion = '20260601-map-location-2';
 
   if (!mapPoints || !provincePoints || !mapBase || !placePanel) {
     return;
@@ -95,6 +95,7 @@
   let provinceBounds = {};
   let activeProvince = null;
   let activePlace = null;
+  let currentMapScale = 1;
 
   function projectPoint(coordinates) {
     const lng = coordinates[0];
@@ -307,7 +308,7 @@
     const provincePlaces = placesByProvince[provinceName] || [];
 
     provincePlaces.forEach(function(place) {
-      const projected = getDisplayPoint(place, true);
+      const projected = getDisplayPoint(place, false);
       const point = createSvgElement('g');
       const hitArea = createSvgElement('circle');
       const circle = createSvgElement('circle');
@@ -320,6 +321,8 @@
       point.setAttribute('aria-label', '查看' + place.name + '的足迹');
       point.setAttribute('aria-pressed', 'false');
       point.setAttribute('transform', 'translate(' + projected.x.toFixed(1) + ' ' + projected.y.toFixed(1) + ')');
+      point.dataset.labelX = Number(labelOffset[0] || 14);
+      point.dataset.labelY = Number(labelOffset[1] || 4);
 
       hitArea.classList.add('map-point-hit');
       hitArea.setAttribute('r', '8');
@@ -343,6 +346,8 @@
         }
       });
     });
+
+    updateCityPointVisualScale(currentMapScale);
   }
 
   function setMapMode(mode) {
@@ -382,6 +387,7 @@
     const originY = (center.y / bounds.height) * 100;
     const normalizedX = (center.x - bounds.width / 2) / (bounds.width / 2);
     const normalizedY = (center.y - bounds.height / 2) / (bounds.height / 2);
+    currentMapScale = scale;
 
     window.clearTimeout(mapViewport._originTimer);
     mapViewport.style.setProperty('--map-origin-x', originX.toFixed(2) + '%');
@@ -391,6 +397,40 @@
     mapViewport.style.setProperty('--map-scale', scale.toFixed(2));
     mapViewport.style.setProperty('--map-tilt-x', (normalizedY * -1.8).toFixed(2) + 'deg');
     mapViewport.style.setProperty('--map-tilt-y', (normalizedX * 2.3).toFixed(2) + 'deg');
+    updateCityPointVisualScale(scale);
+  }
+
+  function updateCityPointVisualScale(scale) {
+    const safeScale = Math.max(1, Number(scale) || 1);
+    const dotRadius = 3.2 / safeScale;
+    const hitRadius = 10 / safeScale;
+    const strokeWidth = 1.6 / safeScale;
+    const labelSize = 8 / safeScale;
+    const labelStroke = 4 / safeScale;
+
+    document.querySelectorAll('.map-point').forEach(function(point) {
+      const hitArea = point.querySelector('.map-point-hit');
+      const circle = point.querySelector('circle:not(.map-point-hit)');
+      const label = point.querySelector('text');
+      const labelX = Number(point.dataset.labelX || 14);
+      const labelY = Number(point.dataset.labelY || 4);
+
+      if (hitArea) {
+        hitArea.setAttribute('r', hitRadius.toFixed(2));
+      }
+
+      if (circle) {
+        circle.setAttribute('r', dotRadius.toFixed(2));
+        circle.style.strokeWidth = strokeWidth.toFixed(2);
+      }
+
+      if (label) {
+        label.setAttribute('x', (labelX / safeScale).toFixed(2));
+        label.setAttribute('y', (labelY / safeScale).toFixed(2));
+        label.style.fontSize = labelSize.toFixed(2) + 'px';
+        label.style.strokeWidth = labelStroke.toFixed(2) + 'px';
+      }
+    });
   }
 
   function focusOnPoint(point, options) {
@@ -418,6 +458,8 @@
     mapViewport.style.setProperty('--map-scale', '1');
     mapViewport.style.setProperty('--map-tilt-x', '0deg');
     mapViewport.style.setProperty('--map-tilt-y', '0deg');
+    currentMapScale = 1;
+    updateCityPointVisualScale(1);
     mapViewport._originTimer = window.setTimeout(function() {
       mapViewport.classList.add('is-resetting-origin');
       mapViewport.style.setProperty('--map-origin-x', '50%');
@@ -461,7 +503,7 @@
   }
 
   function setActiveCity(place, pointNode) {
-    const projected = getDisplayPoint(place, true);
+    const projected = getDisplayPoint(place, false);
     activePlace = place;
 
     document.querySelectorAll('.map-point').forEach(function(node) {
