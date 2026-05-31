@@ -454,29 +454,10 @@ body.theme-luka .resume-logo {
   display: grid;
   place-items: center;
   overflow: hidden;
-  border: 1px solid var(--luka-border);
+  border: 1px solid transparent;
   border-radius: 8px;
-  background:
-    linear-gradient(145deg, color-mix(in srgb, var(--resume-logo-bg) 86%, transparent), var(--resume-logo-bg)),
-    var(--resume-logo-bg);
-  box-shadow: 0 14px 32px var(--luka-shadow);
-}
-
-body.theme-luka .resume-logo.logo-light {
-  --resume-logo-bg: #fffdf9;
-}
-
-body.theme-luka .resume-logo.logo-dark {
-  --resume-logo-bg: #121416;
-}
-
-[data-theme="dark"] body.theme-luka .resume-logo.logo-light,
-:root:not([data-theme="light"]) body.theme-luka .resume-logo.logo-light {
-  --resume-logo-bg: #121416;
-}
-
-[data-theme="light"] body.theme-luka .resume-logo.logo-dark {
-  --resume-logo-bg: #fffdf9;
+  background: transparent;
+  box-shadow: none;
 }
 
 body.theme-luka .resume-logo img {
