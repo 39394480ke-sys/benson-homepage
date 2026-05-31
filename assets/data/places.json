@@ -476,7 +476,244 @@
     "summary": "无",
     "photos": [
       "assets/img/places/haixi-1.jpg",
-      "assets/img/places/haixi-2.jpg"
+      "assets/img/places/haixi-2.jpg",
+      "assets/img/places/haixi-3.jpg",
+      "assets/img/places/haixi-4.jpg",
+      "assets/img/places/haixi-5.jpg",
+      "assets/img/places/haixi-6.jpg"
+    ],
+    "province": "青海"
+  },
+  {
+    "id": "zhangye",
+    "name": "张掖",
+    "province": "甘肃",
+    "coordinates": [
+      100.4498,
+      38.9259
+    ],
+    "markerOffset": [
+      0,
+      -8
+    ],
+    "labelOffset": [
+      14,
+      -16
+    ],
+    "summary": "鬼斧神工。",
+    "photos": [
+      "assets/img/places/zhangye-1.jpg",
+      "assets/img/places/zhangye-2.jpg",
+      "assets/img/places/zhangye-3.jpg"
+    ]
+  },
+  {
+    "id": "jiayuguan",
+    "name": "嘉峪关",
+    "province": "甘肃",
+    "coordinates": [
+      98.2891,
+      39.7731
+    ],
+    "markerOffset": [
+      -12,
+      -6
+    ],
+    "labelOffset": [
+      -48,
+      -16
+    ],
+    "summary": "无",
+    "photos": [
+      "assets/img/places/jiayuguan-1.jpg"
+    ]
+  },
+  {
+    "id": "jiuquan",
+    "name": "酒泉",
+    "province": "甘肃",
+    "coordinates": [
+      98.4943,
+      39.7326
+    ],
+    "markerOffset": [
+      14,
+      8
+    ],
+    "labelOffset": [
+      14,
+      22
+    ],
+    "summary": "难忘鸣沙山万人合唱。",
+    "photos": [
+      "assets/img/places/jiuquan-1.jpg",
+      "assets/img/places/jiuquan-2.jpg",
+      "assets/img/places/jiuquan-3.jpg",
+      "assets/img/places/jiuquan-4.jpg"
+    ]
+  },
+  {
+    "id": "jinzhong",
+    "name": "晋中",
+    "province": "山西",
+    "coordinates": [
+      112.7526,
+      37.687
+    ],
+    "markerOffset": [
+      10,
+      10
+    ],
+    "labelOffset": [
+      14,
+      22
+    ],
+    "summary": "无",
+    "photos": [
+      "assets/img/places/jinzhong-1.jpg",
+      "assets/img/places/jinzhong-2.jpg"
+    ]
+  },
+  {
+    "id": "zhuhai",
+    "name": "珠海",
+    "province": "广东",
+    "coordinates": [
+      113.5767,
+      22.2707
+    ],
+    "markerOffset": [
+      9,
+      12
+    ],
+    "labelOffset": [
+      14,
+      24
+    ],
+    "summary": "无",
+    "photos": [
+      "assets/img/places/zhuhai-1.jpg"
+    ]
+  },
+  {
+    "id": "xian",
+    "name": "西安",
+    "province": "陕西",
+    "coordinates": [
+      108.9398,
+      34.3416
+    ],
+    "markerOffset": [
+      0,
+      0
+    ],
+    "labelOffset": [
+      14,
+      4
+    ],
+    "summary": "无",
+    "photos": [
+      "assets/img/places/xian-1.jpg",
+      "assets/img/places/xian-2.jpg",
+      "assets/img/places/xian-3.jpg",
+      "assets/img/places/xian-4.jpg"
+    ]
+  },
+  {
+    "id": "nanao",
+    "name": "南澳岛",
+    "province": "广东",
+    "coordinates": [
+      117.0234,
+      23.4217
+    ],
+    "markerOffset": [
+      18,
+      4
+    ],
+    "labelOffset": [
+      14,
+      22
+    ],
+    "summary": "无",
+    "photos": [
+      "assets/img/places/nanao-1.jpg"
+    ]
+  },
+  {
+    "id": "lijiang",
+    "name": "丽江",
+    "province": "云南",
+    "coordinates": [
+      100.233,
+      26.8721
+    ],
+    "markerOffset": [
+      0,
+      0
+    ],
+    "labelOffset": [
+      14,
+      4
+    ],
+    "summary": "无",
+    "photos": [
+      "assets/img/places/lijiang-1.jpg",
+      "assets/img/places/lijiang-2.jpg",
+      "assets/img/places/lijiang-3.jpg",
+      "assets/img/places/lijiang-4.jpg",
+      "assets/img/places/lijiang-5.jpg"
+    ]
+  },
+  {
+    "id": "nanjing",
+    "name": "南京",
+    "province": "江苏",
+    "coordinates": [
+      118.7969,
+      32.0603
+    ],
+    "markerOffset": [
+      -10,
+      10
+    ],
+    "labelOffset": [
+      -44,
+      24
+    ],
+    "summary": "大屠杀。",
+    "photos": [
+      "assets/img/places/nanjing-1.jpg",
+      "assets/img/places/nanjing-2.jpg",
+      "assets/img/places/nanjing-3.jpg",
+      "assets/img/places/nanjing-4.jpg",
+      "assets/img/places/nanjing-5.jpg"
+    ]
+  },
+  {
+    "id": "beijing",
+    "name": "北京",
+    "province": "北京",
+    "coordinates": [
+      116.4074,
+      39.9042
+    ],
+    "markerOffset": [
+      0,
+      0
+    ],
+    "labelOffset": [
+      14,
+      4
+    ],
+    "summary": "萧瑟。",
+    "photos": [
+      "assets/img/places/beijing-1.jpg",
+      "assets/img/places/beijing-2.jpg",
+      "assets/img/places/beijing-3.jpg",
+      "assets/img/places/beijing-4.jpg",
+      "assets/img/places/beijing-5.jpg",
+      "assets/img/places/beijing-6.jpg"
     ]
   }
 ]

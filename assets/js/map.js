@@ -8,7 +8,7 @@
   const mapStatus = document.getElementById('mapStatus');
   const placePanel = document.getElementById('placePanel');
   const fallbackList = document.getElementById('placesFallback');
-  const dataVersion = '20260531-map-stages-4';
+  const dataVersion = '20260531-map-stages-5';
 
   if (!mapPoints || !provincePoints || !mapBase || !placePanel) {
     return;
@@ -36,7 +36,17 @@
     wuhan: '湖北',
     xining: '青海',
     lanzhou: '甘肃',
-    haixi: '青海'
+    haixi: '青海',
+    zhangye: '甘肃',
+    jiayuguan: '甘肃',
+    jiuquan: '甘肃',
+    jinzhong: '山西',
+    zhuhai: '广东',
+    xian: '陕西',
+    nanao: '广东',
+    lijiang: '云南',
+    nanjing: '江苏',
+    beijing: '北京'
   };
 
   const provinceLabelOffsets = {
@@ -51,7 +61,9 @@
     陕西: [-48, 4],
     湖北: [14, -12],
     青海: [-48, 4],
-    甘肃: [-48, -10]
+    甘肃: [-48, -10],
+    云南: [-48, 10],
+    北京: [14, -10]
   };
 
   const cityLabelOffsets = {
