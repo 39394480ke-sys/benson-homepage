@@ -72,5 +72,7 @@
       "cover": "https://p2.music.126.net/SQMxXHK8Z8SJPoKGI0SMvQ==/109951168468694911.jpg",
       "url": "https://music.163.com/#/song?id=2030158097"
     }
-  ]
+  ],
+  "lastSyncError": "Netease playlist returned no tracks",
+  "lastSyncFailedAt": "2026-06-01T22:36:51.062Z"
 }
