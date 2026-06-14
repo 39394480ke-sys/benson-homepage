@@ -1,6 +1,6 @@
 {
   "source": "https://music.163.com/playlist?id=17830616987",
-  "updatedAt": "2026-06-12T22:00:44.239Z",
+  "updatedAt": "2026-06-14T21:39:25.014Z",
   "tracks": [
     {
       "title": "luther",
@@ -72,7 +72,5 @@
       "cover": "https://p2.music.126.net/3U8tip1lgZsnmqVR45b06A==/109951168988835211.jpg",
       "url": "https://music.163.com/#/song?id=2091578499"
     }
-  ],
-  "lastSyncError": "Netease playlist returned no tracks",
-  "lastSyncFailedAt": "2026-06-13T21:37:52.634Z"
+  ]
 }
