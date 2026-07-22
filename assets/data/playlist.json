@@ -1,54 +1,54 @@
 {
   "source": "https://music.163.com/playlist?id=17830616987",
-  "updatedAt": "2026-07-20T21:32:08.234Z",
+  "updatedAt": "2026-07-22T21:29:50.293Z",
   "tracks": [
     {
       "title": "Runaway",
       "artist": "Kanye West / Pusha T",
       "album": "My Beautiful Dark Twisted Fantasy",
-      "cover": "https://p1.music.126.net/fCCxDPyFjN11uSZ4GZsifw==/109951166027217441.jpg",
+      "cover": "https://p2.music.126.net/fCCxDPyFjN11uSZ4GZsifw==/109951166027217441.jpg",
       "url": "https://music.163.com/#/song?id=18969210"
     },
     {
       "title": "出现又离开 (Live)",
       "artist": "梁博",
       "album": "我是唱作人 第2期",
-      "cover": "https://p1.music.126.net/mAV2OH6nPJd4XLwn80kwpA==/109951164054054313.jpg",
+      "cover": "https://p2.music.126.net/mAV2OH6nPJd4XLwn80kwpA==/109951164054054313.jpg",
       "url": "https://music.163.com/#/song?id=1363553440"
     },
     {
       "title": "后视镜",
       "artist": "罗言",
       "album": "我的雷雨季电台",
-      "cover": "https://p1.music.126.net/1N-DtWOD-xqS6G3jeiDTug==/109951169591804419.jpg",
+      "cover": "https://p2.music.126.net/1N-DtWOD-xqS6G3jeiDTug==/109951169591804419.jpg",
       "url": "https://music.163.com/#/song?id=2144694164"
     },
     {
       "title": "左转灯 (1000 Times +1)",
       "artist": "派伟俊 / mac ova seas",
       "album": "左转灯 (1000 Times +1)",
-      "cover": "https://p1.music.126.net/ODlrxB8b_86bDZTuCXGK1w==/109951172153456358.jpg",
+      "cover": "https://p2.music.126.net/ODlrxB8b_86bDZTuCXGK1w==/109951172153456358.jpg",
       "url": "https://music.163.com/#/song?id=2755710644"
     },
     {
       "title": "玲子4.0",
       "artist": "叶霁晨 / 翁杰Winjay",
       "album": "攀讲",
-      "cover": "https://p1.music.126.net/qSB4xYmR675T_siPUd205g==/109951172382997221.jpg",
+      "cover": "https://p2.music.126.net/qSB4xYmR675T_siPUd205g==/109951172382997221.jpg",
       "url": "https://music.163.com/#/song?id=3324822346"
     },
     {
       "title": "用背脊唱情歌",
       "artist": "Gareth.T",
       "album": "用背脊唱情歌",
-      "cover": "https://p1.music.126.net/LT8Gg3QQVPfjuD7tr7BUAQ==/109951171268775376.jpg",
+      "cover": "https://p2.music.126.net/LT8Gg3QQVPfjuD7tr7BUAQ==/109951171268775376.jpg",
       "url": "https://music.163.com/#/song?id=2712620397"
     },
     {
       "title": "Empire State Of Mind",
       "artist": "JAY-Z / Alicia Keys",
       "album": "The Hits Collection Volume One [International Version (Explicit)]",
-      "cover": "https://p1.music.126.net/9yWlRLAgxE_rl0MeRgXCbg==/109951172151366758.jpg",
+      "cover": "https://p2.music.126.net/9yWlRLAgxE_rl0MeRgXCbg==/109951172151366758.jpg",
       "url": "https://music.163.com/#/song?id=18614153"
     },
     {
@@ -72,7 +72,5 @@
       "cover": "https://p2.music.126.net/TOkRGd59o3hAOKsnMMmMMA==/109951163755246383.jpg",
       "url": "https://music.163.com/#/song?id=557583281"
     }
-  ],
-  "lastSyncError": "Netease playlist returned no tracks",
-  "lastSyncFailedAt": "2026-07-21T21:32:43.631Z"
+  ]
 }
