@@ -1,7 +1,14 @@
 {
   "source": "https://music.163.com/playlist?id=17830616987",
-  "updatedAt": "2026-08-16T20:37:22.373Z",
+  "updatedAt": "2026-08-17T20:43:21.020Z",
   "tracks": [
+    {
+      "title": "When I Was Your Man",
+      "artist": "Bruno Mars",
+      "album": "When I Was Your Man",
+      "cover": "https://p1.music.126.net/BgIHV6Bdc1fOL8exoLAHIg==/1694347418408441.jpg",
+      "url": "https://music.163.com/#/song?id=25657229"
+    },
     {
       "title": "When I Was Your Man",
       "artist": "Bruno Mars",
@@ -64,13 +71,6 @@
       "album": "My Beautiful Dark Twisted Fantasy",
       "cover": "https://p1.music.126.net/fCCxDPyFjN11uSZ4GZsifw==/109951166027217441.jpg",
       "url": "https://music.163.com/#/song?id=18969210"
-    },
-    {
-      "title": "出现又离开 (Live)",
-      "artist": "梁博",
-      "album": "我是唱作人 第2期",
-      "cover": "https://p1.music.126.net/mAV2OH6nPJd4XLwn80kwpA==/109951164054054313.jpg",
-      "url": "https://music.163.com/#/song?id=1363553440"
     }
   ]
 }
