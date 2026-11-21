@@ -1,7 +1,14 @@
 {
   "source": "https://music.163.com/playlist?id=17830616987",
-  "updatedAt": "2026-11-20T01:45:57.496Z",
+  "updatedAt": "2026-11-21T01:30:48.114Z",
   "tracks": [
+    {
+      "title": "活着多好",
+      "artist": "陈奕迅",
+      "album": "The Easy Ride",
+      "cover": "https://p1.music.126.net/42lgwYQi3buU-QEPd_Cfrw==/109951163426161787.jpg",
+      "url": "https://music.163.com/#/song?id=67307"
+    },
     {
       "title": "一生所愛 (電影\"西遊記大結局之仙履奇緣\"插曲)",
       "artist": "卢冠廷",
@@ -64,13 +71,6 @@
       "album": "不停的",
       "cover": "https://p1.music.126.net/cgXXV8PHNJKEWPUvwcs7Pg==/109951170999966930.jpg",
       "url": "https://music.163.com/#/song?id=2706324316"
-    },
-    {
-      "title": "Impatient",
-      "artist": "DDG / OG PARKER / Coi Leray",
-      "album": "Die 4 Respect",
-      "cover": "https://p1.music.126.net/-qqFBcctiMJoH4mHO-BMnA==/109951165810740902.jpg",
-      "url": "https://music.163.com/#/song?id=1830023514"
     }
   ]
 }
